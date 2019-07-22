@@ -34,6 +34,7 @@ def move(board, number, letter)
   return board[number] = letter
 end
 
+<<<<<<< HEAD
 def turn(board) 
     puts "Please enter 1-9:"
     user_input_turn = gets.strip
@@ -52,3 +53,9 @@ def turn(board)
   
 end
 
+=======
+def turn 
+  puts "Please enter 1-9:"
+  user_input_turn = gets.strip
+end
+>>>>>>> 6e945614288378a288ef8652edf242daf40d26e8
